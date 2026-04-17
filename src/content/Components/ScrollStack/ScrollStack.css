@@ -22,7 +22,8 @@
 }
 
 .scroll-stack-card {
-  transform-origin: top center;
+ transform-origin: center center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
   will-change: transform, filter;
   backface-visibility: hidden;
   transform-style: preserve-3d;
